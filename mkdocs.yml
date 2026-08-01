@@ -1,0 +1,10 @@
+site_name: 'smoke-test-04'
+site_description: 'Documentation for smoke-test-04'
+repo_url: https://github.com/zahra-ehghaghi-org/smoke-test-04
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview: index.md

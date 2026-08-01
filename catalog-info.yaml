@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: smoke-test-04
+  description: A self-service provisioned Python/Flask service (dev)
+  annotations:
+    github.com/project-slug: zahra-ehghaghi-org/smoke-test-04
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - flask
+    - dev
+  links:
+    - url: https://github.com/zahra-ehghaghi-org/smoke-test-04
+      title: Source Repository
+      icon: github
+    - url: https://argocd.test.com/applications/smoke-test-04
+      title: ArgoCD Application
+      icon: dashboard
+    - url: http://grafana.test.com/d/platform-services-overview
+      title: Grafana Dashboard
+      icon: dashboard
+spec:
+  type: service
+  owner: development
+  lifecycle: dev
+  system: platform-services
